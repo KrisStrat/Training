@@ -1,0 +1,54 @@
+@font-face {
+  font-family: BebasNeue;
+  font-style: normal;
+  src: url(fonts/BebasNeue-Regular.ttf);
+};
+ span {
+   font-family: BebasNeue;
+   font-size: 30px;
+   text-transform: uppercase;
+   text-align: center;
+ };
+
+ .container {
+   display: inline-block;
+   padding: 20px;
+   width: 450px;
+   box-sizing: border-box;
+   margin: auto;
+ }
+ .item {
+   display: block;
+   width: 150px;
+   height: 250px;
+   transition: all 5s ease-out;
+ }
+ .one {
+   background-image: url(img/person-hold-gold-htc-android-smartphone-in-front-of-macbook-1181216.jpg);
+   background-position: cover;
+   background-repeat: no-repeat;
+   background-color: #d38647;
+
+ }
+ .one:hover {
+  transform: matrix(3,0,0,0,150,250);
+
+}
+ .two {
+   background-image: url(img/person-using-macbook-pro-beside-white-ceramic-mug-on-white-4348404.jpg);
+   background-position: cover;
+   background-repeat: no-repeat;
+   background-color: #719f49;
+ };
+ .two:hover {
+   transform: matrix(3,0,0,0,0,250);
+ }
+ .three {
+   background-image: url(img/dslr-camera-905482.jpg);
+   background-position: cover;
+   background-repeat: no-repeat;
+   background-color: #2b425c;
+ }
+ .three:hover {
+   transform: matrix(3,0,0,0,0,-150,250);
+ }
